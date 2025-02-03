@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from "react";
+import React, { useEffect, useState } from "react";
 import { useSearchParams } from "react-router";
 import { useDispatch, useSelector } from "react-redux";
 import { addPaste } from "../redux/Pasteslice";

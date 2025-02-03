@@ -1,6 +1,6 @@
 import React from "react";
 import { useSelector } from "react-redux";
-import { useParams, useSearchParams } from "react-router";
+import { useParams } from "react-router";
 
 const Viewpaste = () => {
   const { id } = useParams();
