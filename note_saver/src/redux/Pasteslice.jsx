@@ -27,7 +27,7 @@ export const PasteSlice = createSlice({
       } else {
         if (state.pastes) state.pastes.push(paste);
         localStorage.setItem("pastes", JSON.stringify(state.pastes));
-        toast("paste created successfully", {
+        toast.success("paste created successfully", {
           style: { backgroundColor: "#0ea5e9" },
         });
       }
