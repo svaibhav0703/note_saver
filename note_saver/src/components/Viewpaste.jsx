@@ -29,7 +29,7 @@ const Viewpaste = () => {
           disabled
           className="p-5 rounded-lg bg-white outline-5 outline-white/5 dark:bg-gray-950/50 text-gray-400 "
           value={paste.content}
-          cols=" 70"
+          cols="70"
           rows="20"
         ></textarea>
       </div>
